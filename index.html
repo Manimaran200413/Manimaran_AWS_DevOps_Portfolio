@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Manimaran P G - AWS DevOps Engineer portfolio">
+  <title>Manimaran P G | AWS DevOps Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home">MPG<span>.</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <nav id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#training">Training</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">AWS • DEVOPS • CLOUD AUTOMATION</p>
+        <h1>Hi, I'm <span>Manimaran P G</span></h1>
+        <h2>AWS DevOps Engineer — Fresher</h2>
+        <p class="hero-text">
+          Motivated and detail-oriented cloud engineer with hands-on experience in
+          AWS, Linux, CI/CD, Infrastructure as Code, containerization, and cloud automation.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="mailto:maran3154@gmail.com">Contact Me</a>
+        </div>
+        <div class="socials">
+          <a href="https://linkedin.com/in/manimaran-p-g-851789309" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://github.com/manimaran-p-g" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="tel:+917530031265">+91 75300 31265</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="terminal">
+          <div class="terminal-top"><i></i><i></i><i></i><span>devops@aws:~</span></div>
+          <pre><code>$ terraform apply
+$ docker build -t app .
+$ kubectl apply -f deployment.yaml
+$ git push origin main
+
+<span>✓ Infrastructure automated</span>
+<span>✓ CI/CD pipeline ready</span>
+<span>✓ Cloud deployment complete</span></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">01 — ABOUT</p>
+        <h2>Building reliable cloud infrastructure.</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          I am an AWS DevOps Engineer fresher focused on designing, deploying, and
+          managing secure, scalable, and cost-efficient AWS solutions. My practical
+          work spans cloud infrastructure, CI/CD automation, Terraform, Jenkins,
+          Docker, Kubernetes, Linux administration, and AWS serverless services.
+        </p>
+        <div class="stats">
+          <div><strong>7</strong><span>Cloud & DevOps Projects</span></div>
+          <div><strong>8.5</strong><span>B.E. CSE CGPA</span></div>
+          <div><strong>AWS</strong><span>Cloud Focus</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">02 — TECHNICAL SKILLS</p>
+        <h2>Tools I work with.</h2>
+      </div>
+      <div class="skill-grid">
+        <article><h3>☁️ AWS</h3><p>EC2, S3, VPC, IAM, RDS, Lambda, EFS, EBS, ELB, Auto Scaling, CodeDeploy, CodePipeline, CloudWatch, CloudTrail, SNS, SQS, DynamoDB</p></article>
+        <article><h3>⚙️ DevOps & IaC</h3><p>Terraform, Jenkins, AWS CLI, Ansible, CI/CD, Infrastructure as Code, CodeDeploy, CodePipeline</p></article>
+        <article><h3>🐳 Containers</h3><p>Docker, Docker Hub, Kubernetes, kubectl, Secrets, rolling updates</p></article>
+        <article><h3>🐧 Systems</h3><p>Linux, Amazon Linux, Ubuntu, Windows Server, Apache, Nginx</p></article>
+        <article><h3>🔐 Security</h3><p>IAM roles, policies, MFA, least-privilege access, Security Groups, network isolation</p></article>
+        <article><h3>💻 Development</h3><p>Git, GitHub, Node.js, Express.js, PHP, MySQL, PostgreSQL, WordPress</p></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">03 — PROJECTS</p>
+        <h2>Hands-on cloud & DevOps work.</h2>
+      </div>
+      <div class="projects">
+        <article class="project">
+          <span class="project-number">01</span>
+          <h3>High-Availability File Sharing with EC2, EFS & S3 Auto-Sync</h3>
+          <p>Designed a custom VPC with two EC2 instances sharing an EFS file system and configured a shared project mount with automatic synchronization to S3.</p>
+          <div class="tags"><span>EC2</span><span>EFS</span><span>S3</span><span>IAM</span><span>VPC</span></div>
+        </article>
+        <article class="project">
+          <span class="project-number">02</span>
+          <h3>Automated S3-to-EC2 Web Deployment Pipeline</h3>
+          <p>Automated website deployment by syncing files from S3 to <code>/var/www/html</code> on EC2 using cron jobs and hosted the site with Apache/Nginx.</p>
+          <div class="tags"><span>S3</span><span>EC2</span><span>IAM</span><span>VPC</span></div>
+        </article>
+        <article class="project">
+          <span class="project-number">03</span>
+          <h3>Secure WordPress Hosting on Windows EC2 with Custom VPC</h3>
+          <p>Installed and configured WordPress on Windows Server EC2 while implementing IAM least privilege and network isolation.</p>
+          <div class="tags"><span>EC2</span><span>VPC</span><span>IAM</span><span>WordPress</span></div>
+        </article>
+        <article class="project featured">
+          <span class="project-number">04</span>
+          <h3>Serverless Data Processing Pipeline</h3>
+          <p>Built an event-driven pipeline: Local upload → S3 → Lambda → RDS → SNS notification.</p>
+          <div class="tags"><span>S3</span><span>Lambda</span><span>RDS</span><span>SNS</span><span>IAM</span></div>
+        </article>
+        <article class="project featured">
+          <span class="project-number">05</span>
+          <h3>End-to-End CI/CD Deployment of Node.js Application</h3>
+          <p>Built and containerized a Node.js Express application and automated deployment through GitHub → CodePipeline → CodeDeploy → EC2.</p>
+          <div class="tags"><span>CodePipeline</span><span>CodeDeploy</span><span>EC2</span><span>GitHub</span><span>Node.js</span></div>
+        </article>
+        <article class="project featured">
+          <span class="project-number">06</span>
+          <h3>AWS Infrastructure Automation using Terraform, S3 & Jenkins</h3>
+          <p>Automated AWS infrastructure provisioning with Terraform, remote state management in S3, and CI/CD automation through Jenkins.</p>
+          <div class="tags"><span>Terraform</span><span>S3</span><span>EC2</span><span>VPC</span><span>Jenkins</span><span>GitHub</span></div>
+        </article>
+        <article class="project featured">
+          <span class="project-number">07</span>
+          <h3>Kubernetes Deployment Pipeline for Calculator App</h3>
+          <p>Automated Docker image delivery to a private Docker Hub repository, Kubernetes Secret authentication, a two-replica deployment, and rolling updates.</p>
+          <div class="tags"><span>Kubernetes</span><span>Docker</span><span>Docker Hub</span><span>kubectl</span><span>Secrets</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="training" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">04 — TRAINING</p>
+        <h2>AWS DevOps Training</h2>
+      </div>
+      <div class="timeline-card">
+        <div class="timeline-dot"></div>
+        <div>
+          <h3>BTree Systems</h3>
+          <p class="muted">Completed AWS DevOps Training</p>
+          <ul>
+            <li>Launched and configured Linux and Windows EC2 workloads.</li>
+            <li>Created custom VPCs with public/private subnets and routing.</li>
+            <li>Configured S3, EFS, IAM roles/policies/MFA, ELB and Auto Scaling.</li>
+            <li>Deployed applications with CodeDeploy and CodePipeline.</li>
+            <li>Configured RDS and built S3 → Lambda → SNS event-driven architectures.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">05 — EDUCATION</p>
+        <h2>Academic background.</h2>
+      </div>
+      <div class="education-grid">
+        <article><span>2022 — 2026</span><h3>Bachelor of Engineering</h3><p>Computer Science Engineering</p><strong>Dhaanish Ahmed College of Engineering</strong><b>CGPA: 8.5</b></article>
+        <article><span>2021 — 2022</span><h3>Higher Secondary (12th)</h3><p>Government Higher Secondary School</p><strong>502 / 600</strong><b>83.6%</b></article>
+        <article><span>2019 — 2020</span><h3>Secondary School (10th)</h3><p>Government Higher Secondary School</p><strong>428 / 500</strong><b>85.6%</b></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div>
+        <p class="eyebrow">06 — CONTACT</p>
+        <h2>Let's build something reliable.</h2>
+        <p>I'm looking for opportunities to apply my AWS and DevOps skills to real-world cloud projects.</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:maran3154@gmail.com"><span>Email</span><b>maran3154@gmail.com ↗</b></a>
+        <a href="https://linkedin.com/in/manimaran-p-g-851789309" target="_blank" rel="noopener"><span>LinkedIn</span><b>manimaran-p-g ↗</b></a>
+        <a href="https://github.com/manimaran-p-g" target="_blank" rel="noopener"><span>GitHub</span><b>manimaran-p-g ↗</b></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Manimaran P G</span>
+    <span>AWS DevOps Engineer</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
