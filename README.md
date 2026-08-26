@@ -30,46 +30,46 @@ The homepage introduces me as an **AWS DevOps Engineer — Fresher** and highlig
 
 ### Frontend
 
-- HTML5
-- CSS3
-- JavaScript
-- Responsive Web Design
-- CSS Grid
-- CSS Flexbox
-- Intersection Observer API
+* HTML5
+* CSS3
+* JavaScript
+* Responsive Web Design
+* CSS Grid
+* CSS Flexbox
+* Intersection Observer API
 
 ### Fonts
 
-- Inter
-- System UI fallback fonts
+* Inter
+* System UI fallback fonts
 
 ### DevOps / Cloud Technologies Showcased
 
-- AWS
-- EC2
-- S3
-- VPC
-- IAM
-- RDS
-- Lambda
-- EFS
-- EBS
-- ELB
-- Auto Scaling
-- CodeDeploy
-- CodePipeline
-- CloudWatch
-- CloudTrail
-- SNS
-- SQS
-- DynamoDB
-- Terraform
-- Jenkins
-- Docker
-- Kubernetes
-- Linux
-- Git
-- GitHub
+* AWS
+* EC2
+* S3
+* VPC
+* IAM
+* RDS
+* Lambda
+* EFS
+* EBS
+* ELB
+* Auto Scaling
+* CodeDeploy
+* CodePipeline
+* CloudWatch
+* CloudTrail
+* SNS
+* SQS
+* DynamoDB
+* Terraform
+* Jenkins
+* Docker
+* Kubernetes
+* Linux
+* Git
+* GitHub
 
 The portfolio's technical-skills section lists AWS, DevOps/IaC, containerization, systems, security, and development technologies.
 
@@ -88,32 +88,32 @@ aws-devops-portfolio/
 
 ### File Description
 
-| File | Description |
-|---|---|
-| `index.html` | Main portfolio webpage and content |
-| `style.css` | Website layout, styling, responsive design |
-| `script.js` | Navigation menu and active-section functionality |
-| `README.md` | Project documentation |
+| File         | Description                                      |
+| ------------ | ------------------------------------------------ |
+| `index.html` | Main portfolio webpage and content               |
+| `style.css`  | Website layout, styling, responsive design       |
+| `script.js`  | Navigation menu and active-section functionality |
+| `README.md`  | Project documentation                            |
 
 ---
 
 ## ✨ Features
 
-- Responsive portfolio design
-- Sticky navigation bar
-- Mobile navigation menu
-- Smooth scrolling
-- Active navigation link detection
-- Hero section
-- About section
-- Technical skills section
-- Project showcase
-- AWS DevOps training section
-- Education section
-- Contact section
-- LinkedIn and GitHub links
-- Mobile, tablet, and desktop support
-- Modern dark-themed UI
+* Responsive portfolio design
+* Sticky navigation bar
+* Mobile navigation menu
+* Smooth scrolling
+* Active navigation link detection
+* Hero section
+* About section
+* Technical skills section
+* Project showcase
+* AWS DevOps training section
+* Education section
+* Contact section
+* LinkedIn and GitHub links
+* Mobile, tablet, and desktop support
+* Modern dark-themed UI
 
 The JavaScript implements the mobile navigation toggle and automatically highlights the navigation link corresponding to the section currently visible on screen.
 
@@ -127,14 +127,14 @@ The CSS provides responsive breakpoints for screens below 800px and 520px.
 
 The homepage contains:
 
-- Name
-- AWS DevOps Engineer title
-- Professional introduction
-- Project button
-- Contact button
-- LinkedIn profile
-- GitHub profile
-- Contact number
+* Name
+* AWS DevOps Engineer title
+* Professional introduction
+* Project button
+* Contact button
+* LinkedIn profile
+* GitHub profile
+* Contact number
 
 It also includes a terminal-style visual showing example DevOps commands such as Terraform, Docker, Kubernetes, and Git.
 
@@ -144,20 +144,20 @@ It also includes a terminal-style visual showing example DevOps commands such as
 
 The About section describes my focus on:
 
-- AWS cloud infrastructure
-- CI/CD automation
-- Terraform
-- Jenkins
-- Docker
-- Kubernetes
-- Linux administration
-- AWS serverless services
+* AWS cloud infrastructure
+* CI/CD automation
+* Terraform
+* Jenkins
+* Docker
+* Kubernetes
+* Linux administration
+* AWS serverless services
 
 The portfolio also highlights:
 
-- **7** Cloud & DevOps Projects
-- **8.5** B.E. CSE CGPA
-- **AWS** Cloud Focus
+* **7** Cloud & DevOps Projects
+* **8.5** B.E. CSE CGPA
+* **AWS** Cloud Focus
 
 ---
 
@@ -370,12 +370,12 @@ Automated Docker image delivery to a private Docker Hub repository and deployed 
 
 The project includes:
 
-- Docker image build
-- Private Docker Hub repository
-- Kubernetes Secret authentication
-- Two-replica deployment
-- Rolling updates
-- `kubectl` deployment management
+* Docker image build
+* Private Docker Hub repository
+* Kubernetes Secret authentication
+* Two-replica deployment
+* Rolling updates
+* `kubectl` deployment management
 
 **Technologies:**
 
@@ -393,22 +393,22 @@ The seven projects and their technology stacks are documented in the portfolio's
 
 Completed AWS DevOps Training with hands-on work involving:
 
-- Linux EC2 workloads
-- Windows EC2 workloads
-- Custom VPCs
-- Public/private subnets
-- Routing
-- S3
-- EFS
-- IAM
-- MFA
-- ELB
-- Auto Scaling
-- CodeDeploy
-- CodePipeline
-- RDS
-- Lambda
-- SNS
+* Linux EC2 workloads
+* Windows EC2 workloads
+* Custom VPCs
+* Public/private subnets
+* Routing
+* S3
+* EFS
+* IAM
+* MFA
+* ELB
+* Auto Scaling
+* CodeDeploy
+* CodePipeline
+* RDS
+* Lambda
+* SNS
 
 The training section of the portfolio specifically records these AWS and DevOps activities.
 
@@ -444,8 +444,6 @@ CGPA: 8.5
 428 / 500
 85.6%
 ```
-
-
 
 ---
 
@@ -526,10 +524,10 @@ GitHub will generate a public URL for the portfolio.
 
 The website supports:
 
-- 💻 Desktop
-- 💻 Laptop
-- 📱 Tablet
-- 📱 Mobile
+* 💻 Desktop
+* 💻 Laptop
+* 📱 Tablet
+* 📱 Mobile
 
 The CSS uses responsive media queries to switch the navigation into a mobile menu and adjust grids/layouts for smaller screens.
 
@@ -557,15 +555,15 @@ toggle.addEventListener("click", () => nav.classList.toggle("open"));
 
 The website uses a modern dark UI with:
 
-- Dark background
-- Card-based sections
-- Accent colors
-- Responsive CSS Grid
-- Responsive Flexbox
-- Sticky navigation
-- Hover effects
-- Terminal-style DevOps illustration
-- Smooth scrolling
+* Dark background
+* Card-based sections
+* Accent colors
+* Responsive CSS Grid
+* Responsive Flexbox
+* Sticky navigation
+* Hover effects
+* Terminal-style DevOps illustration
+* Smooth scrolling
 
 The primary design system is defined through CSS custom properties for background, surfaces, text, accent, border, and maximum content width.
 
