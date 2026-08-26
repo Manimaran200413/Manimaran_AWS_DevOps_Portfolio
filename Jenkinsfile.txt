@@ -1,0 +1,38 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main',
+                    url: 'https://github.com/<your-username>/my-website.git',
+                    credentialsId: 'github-creds'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                sh '''
+                    echo "Running basic HTML validation..."
+                    test -f index.html && echo "index.html found" || (echo "index.html missing" && exit 1)
+                '''
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                sshagent(credentials: ['web-ec2-ssh']) {
+                    sh '''
+                        scp -o StrictHostKeyChecking=no -r ./* ec2-user@<web-ec2-ip>:/tmp/website/
+                        ssh -o StrictHostKeyChecking=no ec2-user@<web-ec2-ip> "sudo rm -rf /usr/share/nginx/html/* && sudo cp -r /tmp/website/* /usr/share/nginx/html/"
+                    '''
+                }
+            }
+        }
+    }
+
+    post {
+        success { echo 'Deployment successful!' }
+        failure { echo 'Build or deployment failed.' }
+    }
+}
