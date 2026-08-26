@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/<your-username>/my-website.git',
+                    url: 'https://github.com/Manimaran200413/Manimaran_AWS_DevOps_Portfolio.git',
                     credentialsId: 'github-creds'
             }
         }
