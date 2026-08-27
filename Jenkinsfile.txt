@@ -21,7 +21,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                sshagent(credentials: ['web-ec2-ssh']) {
+                sshagent(credentials: ['target-ec2-deploy-key']) {
                     sh '''
                         scp -o StrictHostKeyChecking=no -r ./* ec2-user@<web-ec2-ip>:/tmp/website/
                         ssh -o StrictHostKeyChecking=no ec2-user@<web-ec2-ip> "sudo rm -rf /usr/share/nginx/html/* && sudo cp -r /tmp/website/* /usr/share/nginx/html/"
