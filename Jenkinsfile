@@ -23,8 +23,8 @@ pipeline {
             steps {
                 sshagent(credentials: ['target-ec2-deploy-key']) {
                     sh '''
-                        scp -o StrictHostKeyChecking=no -r ./* ec2-user@<172.31.46.230>:/tmp/website/
-                        ssh -o StrictHostKeyChecking=no ec2-user@<172.31.46.230> "sudo rm -rf /usr/share/nginx/html/* && sudo cp -r /tmp/website/* /usr/share/nginx/html/"
+                        scp -o StrictHostKeyChecking=no -r ./* ec2-user@172.31.46.230:/tmp/website/
+                        ssh -o StrictHostKeyChecking=no ec2-user@172.31.46.230 "sudo rm -rf /usr/share/nginx/html/* && sudo cp -r /tmp/website/* /usr/share/nginx/html/"
                     '''
                 }
             }
